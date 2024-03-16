@@ -1,4 +1,1 @@
-module.exports = {
-    publicPath: './',
-    outputDir: 'docs/', 
-  }
+VITE_APP_PATH='/docs/'
