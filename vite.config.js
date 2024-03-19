@@ -1,1 +1,9 @@
-VITE_APP_PATH='/docs/'
+// /** @type {import('vite').UserConfig} */
+import vue from '@vitejs/plugin-vue'
+
+export default ({
+    plugins: [vue()],
+    build:{
+      outDir: 'docs'
+    }
+});

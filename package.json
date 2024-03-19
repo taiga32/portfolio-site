@@ -3,13 +3,14 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && cp -r dist/* docs"                
+    "build": "vite build"
   },
   "dependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "5.0.0",
     "vue": "^3.0.4"
   },
   "devDependencies": {
-    "vite": "^1.0.0-rc.13",
     "@vue/compiler-sfc": "^3.0.4"
   }
 }
