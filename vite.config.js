@@ -4,6 +4,6 @@ import vue from '@vitejs/plugin-vue'
 export default ({
     plugins: [vue()],
     build:{
-      outDir: 'docs'
+      outDir: 'docs/portfolio-site'
     }
 });
